@@ -1,0 +1,45 @@
+python 3.3 print needs brackets!!!
+
+list of commands of p4 needed(p4 help)
+p4 annotate: print file lines along with their revisions
+p4 attribute: set per-revision attributes on revisions
+p4 branches: display list of branches
+p4 changes: display list of pending and submitted changelists
+	format: Change 464874 on 2014/02/27 by vmurphy@merge-arsenal 'Fixes: jdelorie CSCun00575  Sta'
+p4 clients: display list of know clients
+p4 cstat: lists the changes not synchronized in the current client
+p4 depost: desplay list of depots
+p4 describe: desplay a changelist description
+p4 diff2: display diff of two depot files
+p4 dirs: list subdirectories of a given depot directory
+p4 filelog: list revision history of files
+p4 files: list files in the depot
+p4 fixes: list what changelists fix what job
+p4 fstat: dump file info
+p4 grep: print lines in files (or revisions of files) that match a pattern
+p4 groups: list groups of users
+p4 have: list revisions last synced
+p4 info: print out client/server information
+p4 integrated: show integrations that have been submitted
+p4 interchanges: lists changes not yet integrated from source to target
+p4 istat: shows the stream's integration status
+p4 jobs: display list of jobs(defect)
+p4 keys: display list of known keys and their values
+p4 labels: display list of labels
+p4 login: login to Perforce by obtaining a session ticket
+p4 logout: logout of Perforce by removing or invalidating aticket
+p4 opened: display list of files opened for pending changelist
+p4 passwd: set user password on server (and Windows client)
+p4 print: retrieve a depot file to the standard output
+p4 protects: display protections in place for a given user/path
+p4 resolved: show files that have been merged but not submitted
+p4 review: list and track changelists (for the review daemon)
+p4 reviews: show what users are subscribed to review files
+p4 set: set variables in the registry (windows only)
+p4 sizes: display size information for files in the depot
+p4 streams: display a list of known streams
+p4 sync: synchronize the client with its view of the depot
+p4 tickets: display list of session tickets for this user
+p4 trust: establish trust of an SSL connection to a Perforce service
+p4 users: display list of know users
+p4 where: show how file namse map through the client view
