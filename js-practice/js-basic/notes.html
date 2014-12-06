@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+	<h1>Notes for Javascript</h1>
+
+	<h2> Where to </h2>
+	<p>
+		In html, Javascript must be inserted between &lt;script&gt; and &lt;/script&gt; tags.		
+	<br>
+		A Javascript <b>function</b> is a block of JavaScript code, that can be executed when "asked" for.
+	<br>
+		Scripts can be placed in the &lt;body&gt; or &lt;head&gt; section of an HTML page, or in both. Note: keeping all code in one place is a good habit.
+	<br>
+		It is a good idea to place scripts at the bottom of the &lt;body&gt; element. This can improve page load, because HTML display is not blocked by scripts loading.
+	<br>
+		Scripts can also be placed in external files. External scripts are practical when the same code is used in many differnt web pages. Javascript files have the file extension <b>.js</b>.
+		To use an external scruot, put the name of the script file in the <b>src</b> attribute of the &lt;script&gt; tag. External scripts cannot contain &lt;script&gt; tags.
+	<br>
+		Placing JavaScripts in external files has some advantages:
+			<ul>
+				<li>It seperates HTML and code.</li>
+				<li>It makes HTML and JavaScript easier to read and maintain.</li>
+				<li>Cached JavaScript files can speed up page loads.</li>
+			</ul>
+	</p>
+
+	<h2> Output </h2>
+	<p>
+		JavaScript can "display" data in different ways:
+			<ul>
+				<li>writng into an alert box, using <b>window.alert()</b>.</li>
+				<li>writing into the HTML output using <b>document.write()</b>. Note: using this after an HTML document is fully loaded will delee all existing HTML. This should be only used for testing.</li>
+				<li>writing into an HTML element using <b>innerHTML</b>. Note: this is a commonly used method.</li>
+				<li>
+					writing into the browser console, using <b>console.log</b>.
+					Note: to access an HTML element, JavaScript can use the <b>document.getElementById(id)</b> method. The <i><b>id</b></i> attribute idenifies the HTML element. The <b>innerHTML</b> property is the element content.
+				</li>
+			</ul>
+		<br>
+		Note: Activate debugging in our browser (Chrome, IE, Firefox) with F12, and select Console in the debugger menu to see the console log.
+	</p>
+</body>
+</html>
