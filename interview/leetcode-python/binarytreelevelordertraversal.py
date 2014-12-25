@@ -8,15 +8,13 @@
 class Solution:
 	# @param root, a tree node
 	# @return a list of lists of integers
-	def zigzagLevelOrder(self, root):
+	def levelOrder(self, root):
 		if not root:
 			return []
 		results = []
 
 		queue = []
 		visited_level = []
-		flag = False
-
 		queue.append(root)
 		queue.append(None)
 
@@ -27,12 +25,8 @@ class Solution:
 					queue.append(None)
 				results.append(visited_level)
 				visited_level = []
-				flag = not flag
 			else:
-				if flag:
-					visited_level.insert(0, root.val)
-				else:
-					visited_level.append(root.val)
+				visited_level.append(root.val)
 				if root.left:
 					queue.append(root.left)
 				if root.right:
